@@ -1,0 +1,75 @@
+plugins {
+    // Apply the java-library plugin for API and implementation separation.
+    id 'java-library'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+    mavenLocal()
+}
+
+group 'codes.rik'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 10
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+            srcDir 'src/main/demo'
+       }
+    }
+}
+
+0
+dependencies {
+//    compile 'net.java.dev.jna:jna:4.5.1'
+    
+//    compile 'org.freedesktop.gstreamer:gst1-java-core:0.9.3'
+
+//    compile 'com.google.guava:guava:25.1-jre'
+//    compile 'com.google.code.findbugs:jsr305:3.0.2'
+
+//    compile 'com.amazonaws:aws-java-sdk-core:1.11.345'
+
+//    compile 'com.amazonaws:aws-java-sdk-kinesisvideo:1.11.255'
+//    compile 'com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.0-SNAPSHOT'
+    
+    //Extra
+//    compile 'com.amazonaws:amazon-kinesis-video-streams-parser-library:1.0.15'
+//    compile 'com.amazonaws:aws-android-sdk-kinesisvideo:2.16.13'
+
+//	testCompile 'junit:junit:4.12'    //implementation group: compile 'com.amazonaws:kinesisvideo-java-demo:1.0-SNAPSHOT'
+    implementation group: 'com.amazonaws', name: 'amazon-kinesis-video-streams-producer-sdk-java', version: '1.0-SNAPSHOT'
+    // https://mvnrepository.com/artifact/com.amazonaws/amazon-kinesis-video-streams-parser-library
+	implementation group: 'com.amazonaws', name: 'amazon-kinesis-video-streams-parser-library', version: '1.0.15'
+    implementation group: 'com.amazonaws', name: 'aws-android-sdk-kinesisvideo', version: '2.16.13'
+    implementation group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+    // https://mvnrepository.com/artifact/org.freedesktop.gstreamer/gst1-java-core
+	implementation group: 'org.freedesktop.gstreamer', name: 'gst1-java-core', version: '0.9.3'
+    // https://mvnrepository.com/artifact/net.java.dev.jna/jna
+	implementation group: 'net.java.dev.jna', name: 'jna', version: '4.5.1'
+	// https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-core
+	implementation group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.345'
+	// https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-kinesisvideo
+	implementation group: 'com.amazonaws', name: 'aws-java-sdk-kinesisvideo', version: '1.11.255'
+	// https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305
+	implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
+	// https://mvnrepository.com/artifact/junit/junit
+	testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+//task runRtspDemo(type: JavaExec) {
+//   dependsOn 'build'
+//    systemProperty "aws.accessKeyId", findProperty('aws.accessKeyId')
+//    systemProperty "aws.secretKey", findProperty('aws.secretKey')
+//    classpath sourceSets.main.runtimeClasspath
+
+//    main = 'codes.rik.kinesisvideo.gstreamer.demo.GStreamerRtspPublisherDemo'
+//    args findProperty('streamName'), findProperty('rtspUri')
+//}
+
+

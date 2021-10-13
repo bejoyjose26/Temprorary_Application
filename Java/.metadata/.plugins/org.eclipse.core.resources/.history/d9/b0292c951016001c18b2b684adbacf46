@@ -1,0 +1,5 @@
+package com.joy.KinesisProducer.aws;
+
+public class KinesisClient {
+
+}

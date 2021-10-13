@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.AmazonKinesisClientBuilder"/>
+    <fullyQualifiedTypeName name="com.amazonaws.regions.Regions"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.joy.KinesisProducer.model.Order"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.joy.KinesisProducer.aws.KinesisClient"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.model.PutRecordsRequestEntry"/>
+    <fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.model.PutRecordsRequest"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.model.PutRecordRequest"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.model.PutRecordsResult"/>
+    <fullyQualifiedTypeName name="com.amazonaws.services.kinesis.AmazonKinesis"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.amazonaws.kinesisvideo.client.KinesisVideoClient"/>
+</qualifiedTypeNameHistroy>

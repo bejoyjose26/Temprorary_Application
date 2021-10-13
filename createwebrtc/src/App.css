@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.desktop-Grid{
+position: relative;
+width: 1519px;
+height: 640px;
+border-radius: 0px;
+background: #FFFFFF;
+}
+.desktop-Grid-bar{
+  height: 80px;
+  width: 1519px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  position: absolute;
+  background: #D72B2B;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.video-Grid{
+  height: 500px;
+  width: 1260px;
+  left: 270px;
+  top: 5px;
+  border-radius: 0px;
+  position: absolute;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.fuction-Grid{
+  height: 500px;
+  width: 270px;
+  left: 0px;
+  top: 5px;
+  border-radius: 0px;
+  overflow-y: scroll;
+  position: absolute;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.video-scroll-Grid-List{
+  height: 180px;
+  width: 1530px;
+  left: 0px;
+  top: 500px;
+  border-radius: 0px;
+  position: absolute;
+  overflow-x: scroll;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+
+}
+
+.fun-btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 270px; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.fun-btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.fun-btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.row-video-pallet{
+  position: absolute;
+  height: 500px;
+  width: 1260px;
+}
+
+.col-video-pallet{
+  position: absolute;
+  height: 440px;
+  width: 550px;
+}
+.col-video-pallet1{
+  position: absolute;
+  height: 440px;
+  width: 550px;
+  left: 605px;
+}
+.video-container{
+  height: 440px;
+  width: 550px;
+}
+
+.d-none{
+  /* display: none; */
+}

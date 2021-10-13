@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;new&apos;" deleteContents="false" description="Delete resource &apos;new&apos;" element1="/new" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1631886561522"/>&#x0A;<refactoring comment="Delete resource &apos;amazon-kinesis-video-streams-producer-sdk-java&apos;" deleteContents="false" description="Delete resource &apos;amazon-kinesis-video-streams-producer-sdk-java&apos;" element1="/amazon-kinesis-video-streams-producer-sdk-java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1631886564915"/>
+</session>

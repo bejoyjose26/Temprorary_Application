@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/amazon-kinesis-video-streams-producer-sdk-java/src/main/demo/com/amazonaws/kinesisvideo/demoapp/DemoAppMain.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.amazonaws.kinesisvideo.demoapp.DemoAppMain"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="amazon-kinesis-video-streams-producer-sdk-java"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="amazon-kinesis-video-streams-producer-sdk-java"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Daws.accessKeyId=ASIATO7YQHBBACXVK5NZ&#13;&#10;-Daws.secretKey=ylfw5qj/2e6WmP0fQnOZiasRZEk9xTkdlRJCeszB&#13;&#10;-Daws.sessionToken=IQoJb3JpZ2luX2VjEAsaCWV1LXdlc3QtMSJGMEQCIAiP2lTio6O2MWVTHpdmud++Xdun/7HmLRMb5aimXHsvAiBK/acuJoK3iYTqvRAi3KsUKXvKJ8Vgl3p3KtlvQ7n34yqJAwhjEAAaDDIzODM1NDk3MDY5MCIM3z1uthNB2SkOYgKxKuYCsozTGOtP+4pLQilEwvydNuXslE+qcv0vChwRTlj7MBERR2oJxM5ABt+CJ/OuC9K/mQfHzvRr2yR7jXy8mNSonsBsZJeFPsUWu+U18h9N4M5NtCpQlxSKDEscVxzXFKp4yv2rSfWH4bQwpn1V9Jbu+Oj+74ILEuca/sFFpQOZF8lKmuAKeRTQvMwoX1VJrnsG7a4XwVQuhF5ta1eIHFHg5I4EIUQKzyQutr7efLk+QWXEMMYePAk0HcEe34I0eUjfkMHXlDLkDIqkbm1aJj+IvxG5SPJRq9urPVJxliYTXNp/hDx4SGw2LzdlBBaxEZJpynPFzWGTH1ifsqR7YGIgKXjUIhxyq8TXj7L4HPej+GGKZDLXbMKYtL5KzJcNg3R3CWLnmH40MQ4/oUwU4ac7qTQnGhu0ie6RprWNAIuECXkhZKsp2hzmPEJ4Ew/cJwoqCnKq5XLIuas1RmLHKFNCGq3/dv9f4jCi74iKBjqnAW6SEWUJ8g7hnbBz7o4OvDfYKcMHmoxSLkKnjmPlcPcsG41nqhPbiJ5vGmCBFqDsPVkOf6kyOaJ/KxzskgmFy4qbn4x37tlXmp9W4JhQ+eZzMXPyxEyAFe1tty69WKEmTfScey0dGwsnhNyA11X6P7Ii/8WxD7366Ul3+vrCUf2Dv05D8WIpsgrAg0rVNrT0JdoXA3apx9vJaQL1k/Lv1EsSAG0Sd5vu&#13;&#10;-Dkvs-stream=My_Video_Stream &#13;&#10;-Djava.library.path=C:\Temprorary_Application\Java\aks-producer-sdk-java\src\main\resources\lib\windows"/>
+</launchConfiguration>

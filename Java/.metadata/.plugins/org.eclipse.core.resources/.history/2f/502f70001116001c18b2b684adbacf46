@@ -1,0 +1,11 @@
+package com.joy.KinesisProducer.aws;
+
+public class KinesisClient {
+	public static final String  AWS_ACCESS_KEY = "";
+	public static final String  AWS_SECRETE_KEY = "";
+	
+	static {
+		System.setProperty(AWS_ACCESS_KEY, "ASIATO7YQHBBFAQMRJ5P");
+		System.setProperty(AWS_SECRETE_KEY, "ueedI8tmjZyYbjEZNpM4ITIRIZ6ZkSovsLCUhG3g");
+	}
+}

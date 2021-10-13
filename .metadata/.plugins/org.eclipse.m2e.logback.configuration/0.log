@@ -1,0 +1,61 @@
+2021-10-11 16:46:50,398 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-11 16:49:02,023 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-11 16:49:37,074 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-11 16:50:01,498 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.0-SNAPSHOT @ D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\pom.xml.
+2021-10-11 16:50:05,356 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.0-SNAPSHOT @ D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\pom.xml.
+2021-10-11 16:50:05,689 [Worker-1: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-10-11 16:50:05,692 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-10-11 16:50:08,170 [Worker-3: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-10-11 16:50:08,252 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar
+2021-10-11 16:50:08,270 [Worker-3: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-10-11 16:50:09,207 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\src\main\demo added.
+2021-10-11 16:50:09,588 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-11 16:50:09,618 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-10-11 16:50:20,487 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-11 16:50:20,488 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\src\test\resources
+2021-10-11 16:50:22,055 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.0-SNAPSHOT @ D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\pom.xml.
+2021-10-11 16:50:22,142 [Worker-14: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-10-11 16:50:23,013 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-10-11 16:50:23,109 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\src\main\demo added.
+2021-10-11 16:50:23,165 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-11 16:50:23,168 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-11 16:50:23,170 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-11 16:50:23,171 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\src\test\resources
+2021-10-11 16:50:23,224 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://D:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar
+2021-10-11 16:50:23,230 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

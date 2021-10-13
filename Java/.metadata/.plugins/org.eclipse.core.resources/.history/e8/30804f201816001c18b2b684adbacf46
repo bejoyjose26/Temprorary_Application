@@ -1,0 +1,21 @@
+package com.joy.KinesisProducer.aws;
+
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.kinesis.AmazonKinesis;
+import com.amazonaws.services.kinesis.AmazonKinesisClientBuilder;
+
+public class KinesisClient {
+	public static final String  AWS_ACCESS_KEY = "aws.accessKeyId";
+	public static final String  AWS_SECRETE_KEY = "aws.secretKey";
+	
+	static {
+		System.setProperty(AWS_ACCESS_KEY, "ASIATO7YQHBBGSM3BI3F");
+		System.setProperty(AWS_SECRETE_KEY, "fBnHQ6D5Wy26PHtxPvC6uBq37fK4NzHx0kLNc13k");
+	}
+	
+	public static AmazonKinesis getKinesisCleint() {
+		return AmazonKinesisClientBuilder.standard()
+				.withRegion(Regions.US_EAST_1)
+				.build();
+	}
+}

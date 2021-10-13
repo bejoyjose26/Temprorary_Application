@@ -1,0 +1,45 @@
+package com.joy.KinesisProducer;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import com.joy.KinesisProducer.model.Order;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	
+	List<String> productList = new ArrayList<String>();
+	Random random = new Random();
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+    
+    private List<Order> getOrderList(){
+    	List<Order> orders = new ArrayList();
+    	for(int i=-0; i<500; i++) {
+    		Order order = new Order();
+    		order.setOrderId(random.nextInt());
+    		order.setProduct(productList.get(random.nextInt(productList.size())));
+    		order.setQuantity(random.nextInt(20));
+    		orders.add(order);
+    	}
+    	return orders;
+    }
+    
+    private void populateProductList() {
+    	productList.add("Shirt");
+    	productList.add("Pant");
+    	productList.add("Belt");
+    	productList.add("Cap");
+    	productList.add("Coat");
+    	productList.add("Shorts");
+    	productList.add("Shoes");
+    	productList.add("Accessories");
+    }
+}

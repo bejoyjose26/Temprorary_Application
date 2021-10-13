@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\Temprorary_Application\Java\gst1-java-examples\BasicPipeline"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(7.2))"/>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="C:\Temprorary_Application\DemoGradleProject"/>
+		<item key="use_default_location" value="true"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(C:\Gradle\gradle-7.2))"/>
+	</section>
+</section>

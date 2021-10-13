@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;lib/src/main/java/codes.rik.kinesisvideo.gstreamer&apos;&#x0D;&#x0A;- Original project: &apos;WebRTCSendRecv&apos;&#x0D;&#x0A;- Destination element: &apos;lib/src/main/java/codes.rik.kinesisvideo.gstreamer&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     WebRTCSendRecv.java&#x0D;&#x0A;     Utils.java" description="Copy files" destination="=lib/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;codes.rik.kinesisvideo.gstreamer" element1="src/main/java/org/freedesktop/gstreamer/examples/WebRTCSendRecv.java" element2="src/main/java/org/freedesktop/gstreamer/examples/Utils.java" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1632747702023" units="0" version="1.0"/>
+</session>

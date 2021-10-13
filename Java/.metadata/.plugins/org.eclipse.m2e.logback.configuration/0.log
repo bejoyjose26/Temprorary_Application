@@ -1,0 +1,671 @@
+2021-09-15 11:24:30,008 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-15 11:25:08,713 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2021-09-15 11:25:08,788 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2021-09-15 11:25:08,828 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2021-09-15 11:25:08,873 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2021-09-15 11:25:31,477 [Worker-1: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Temprorary Application\Java\KinesisProducer\pom.xml
+2021-09-15 11:25:32,082 [Worker-1: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 11:25:32,447 [Worker-1: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KinesisProducer/src/main/java
+2021-09-15 11:25:32,450 [Worker-1: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KinesisProducer/src/test/java
+2021-09-15 11:25:32,578 [Worker-1: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2021-09-15 11:25:33,235 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:25:33,235 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:25:33,237 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:25:33,237 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:25:33,532 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2021-09-15 11:25:33,619 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2021-09-15 11:25:33,698 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-09-15 11:25:33,701 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-09-15 11:25:34,294 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:25:34,295 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:25:34,295 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:25:34,296 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:26:36,187 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:26:36,188 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:26:36,188 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:26:36,189 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:28:41,621 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 11:28:41,827 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:41,827 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:28:41,829 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:41,830 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:28:42,989 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.12.67/aws-java-sdk-kinesis-1.12.67-sources.jar
+2021-09-15 11:28:43,079 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:43,080 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:28:43,080 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:43,081 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:28:43,327 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesis/1.12.67/aws-java-sdk-kinesis-1.12.67-sources.jar
+2021-09-15 11:28:43,389 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kinesis:1.12.67
+2021-09-15 11:28:43,544 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.12.67/aws-java-sdk-core-1.12.67-sources.jar
+2021-09-15 11:28:43,805 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.12.67/aws-java-sdk-core-1.12.67-sources.jar
+2021-09-15 11:28:43,833 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-core:1.12.67
+2021-09-15 11:28:43,997 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar
+2021-09-15 11:28:44,181 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar
+2021-09-15 11:28:44,237 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.15
+2021-09-15 11:28:44,406 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar
+2021-09-15 11:28:44,618 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar
+2021-09-15 11:28:44,686 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.13
+2021-09-15 11:28:44,856 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar
+2021-09-15 11:28:45,035 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar
+2021-09-15 11:28:45,063 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.13
+2021-09-15 11:28:45,225 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3-sources.jar
+2021-09-15 11:28:45,488 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3-sources.jar
+2021-09-15 11:28:45,567 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.12.3
+2021-09-15 11:28:45,723 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3-sources.jar
+2021-09-15 11:28:45,814 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3-sources.jar
+2021-09-15 11:28:45,842 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.12.3
+2021-09-15 11:28:46,020 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3-sources.jar
+2021-09-15 11:28:46,212 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3-sources.jar
+2021-09-15 11:28:46,236 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.12.3
+2021-09-15 11:28:46,394 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3-sources.jar
+2021-09-15 11:28:46,523 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3-sources.jar
+2021-09-15 11:28:46,568 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.12.3
+2021-09-15 11:28:46,742 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.12.67/jmespath-java-1.12.67-sources.jar
+2021-09-15 11:28:46,800 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.12.67/jmespath-java-1.12.67-sources.jar
+2021-09-15 11:28:46,828 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:jmespath-java:1.12.67
+2021-09-15 11:28:47,002 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:47,002 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:28:47,003 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:28:47,003 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:29:11,637 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 11:29:11,774 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:11,775 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:29:11,776 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:11,776 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:29:12,933 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:12,933 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:29:12,934 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:12,934 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:29:13,026 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8-sources.jar
+2021-09-15 11:29:13,145 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8-sources.jar
+2021-09-15 11:29:13,183 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.8.8
+2021-09-15 11:29:13,957 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:13,957 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:29:13,958 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:29:13,958 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:30:45,765 [Worker-21: Launching Executing clean in C__Temprorary Application_Java_KinesisProducer] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\KinesisProducer
+2021-09-15 11:30:45,769 [Worker-21: Launching Executing clean in C__Temprorary Application_Java_KinesisProducer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-15 11:30:45,769 [Worker-21: Launching Executing clean in C__Temprorary Application_Java_KinesisProducer] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2021-09-15 11:30:49,598 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:30:49,598 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:30:49,599 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:30:49,599 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:31:03,797 [Worker-20: Launching Executing install in C__Temprorary Application_Java_KinesisProducer] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\KinesisProducer
+2021-09-15 11:31:03,798 [Worker-20: Launching Executing install in C__Temprorary Application_Java_KinesisProducer] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-09-15 11:31:06,979 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:31:06,979 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:31:06,980 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:31:06,980 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:31:21,093 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-15 11:31:21,224 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 11:31:21,348 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KinesisProducer/src/main/java
+2021-09-15 11:31:21,349 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /KinesisProducer/src/test/java
+2021-09-15 11:31:21,414 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-09-15 11:31:21,599 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:31:21,599 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:31:21,600 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:31:21,601 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:32:08,362 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:32:08,362 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:32:08,363 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:32:08,363 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:32:22,902 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:32:22,902 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:32:22,902 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:32:22,902 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:35:02,132 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:35:02,132 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:35:02,133 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:35:02,133 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:38:02,101 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:38:02,101 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:38:02,102 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:38:02,102 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:39:14,670 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:39:14,670 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:39:14,670 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:39:14,671 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:39:28,897 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:39:28,897 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:39:28,898 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:39:28,898 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:40:51,283 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:40:51,283 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:40:51,284 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:40:51,284 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:44:15,082 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:44:15,082 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:44:15,082 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:44:15,082 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 11:50:23,603 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:50:23,603 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 11:50:23,603 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 11:50:23,603 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:04:28,000 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:04:28,000 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:04:28,000 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:04:28,000 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:14:16,461 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:14:16,461 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:14:16,462 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:14:16,462 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:14:21,346 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:14:21,346 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:14:21,347 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:14:21,347 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:21:22,409 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:21:22,409 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:21:22,410 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:21:22,410 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:22:43,754 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:22:43,754 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:22:43,754 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:22:43,754 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:27:31,125 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:27:31,125 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:27:31,126 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:27:31,126 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:29:01,998 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:29:01,998 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:29:01,998 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:29:01,998 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:30:50,151 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:30:50,151 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:30:50,152 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:30:50,152 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:32:50,921 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:32:50,921 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:32:50,921 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:32:50,922 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:33:10,551 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:10,551 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:33:10,551 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:10,551 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:33:36,215 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:36,215 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:33:36,216 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:36,216 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:33:49,365 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:49,365 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:33:49,366 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:33:49,366 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:34:33,227 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:34:33,227 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:34:33,228 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:34:33,228 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:35:23,948 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:35:23,948 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:35:23,948 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:35:23,948 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:35:41,298 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:35:41,298 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:35:41,298 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:35:41,298 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:36:30,968 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:36:30,968 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:36:30,968 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:36:30,968 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:40:52,354 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:40:52,355 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:40:52,355 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:40:52,355 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:42:30,781 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:42:30,781 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:42:30,782 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:42:30,782 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:42:53,468 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:42:53,468 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:42:53,468 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:42:53,468 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:43:20,179 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:43:20,179 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:43:20,179 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:43:20,179 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:52:54,359 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:52:54,359 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:52:54,360 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:52:54,360 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:53:48,799 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:53:48,799 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:53:48,799 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:53:48,800 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:55:02,995 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:55:02,995 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:55:02,996 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:55:02,996 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:56:25,055 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:56:25,055 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:56:25,056 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:56:25,056 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 12:59:48,199 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:59:48,200 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 12:59:48,200 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 12:59:48,200 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 13:00:06,070 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 13:00:06,070 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 13:00:06,070 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 13:00:06,070 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 13:06:08,069 [Worker-60: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-15 13:06:08,233 [Worker-60: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 13:06:09,443 [Worker-60: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 13:06:09,471 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar
+2021-09-15 13:06:09,474 [Worker-60: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-15 13:06:10,322 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 13:06:10,324 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 13:06:10,343 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 13:06:13,172 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 13:06:13,174 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 13:06:44,397 [Worker-58: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar
+2021-09-15 13:06:44,399 [Worker-58: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-15 13:26:44,462 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 13:26:44,462 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 13:26:44,463 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 13:26:44,463 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 15:51:11,322 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-15 15:51:17,431 [Worker-83: Launching amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:51:17,431 [Worker-83: Launching amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-09-15 15:52:51,517 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-15 15:53:00,047 [Worker-85: Launching Executing clean in C__Temprorary Application_Java_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:53:00,047 [Worker-85: Launching Executing clean in C__Temprorary Application_Java_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-15 15:53:02,246 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:53:02,248 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:02,369 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 15:53:04,679 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:04,679 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 15:53:21,949 [Worker-76: Launching Executing clean in C__Temprorary Application_Java_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:53:21,950 [Worker-76: Launching Executing clean in C__Temprorary Application_Java_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-15 15:53:23,986 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:53:23,986 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:24,105 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 15:53:26,453 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:26,454 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 15:53:43,699 [Worker-82: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:53:43,699 [Worker-82: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-09-15 15:53:43,853 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:53:43,854 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:43,999 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 15:53:44,195 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:53:44,195 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 15:54:16,326 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2021-09-15 15:54:16,394 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.3.1/org.eclipse.m2e.workspace.cli-0.3.1-sources.jar
+2021-09-15 15:54:16,656 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2021-09-15 15:54:16,737 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0-sources.jar
+2021-09-15 15:54:16,951 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1-sources.jar
+2021-09-15 15:54:17,142 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1-sources.jar
+2021-09-15 15:54:17,335 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1-sources.jar
+2021-09-15 15:54:17,457 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1-sources.jar
+2021-09-15 15:54:17,660 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1-sources.jar
+2021-09-15 15:54:17,737 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1-sources.jar
+2021-09-15 15:54:17,921 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1-sources.jar
+2021-09-15 15:54:18,000 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1-sources.jar
+2021-09-15 15:54:18,196 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1-sources.jar
+2021-09-15 15:54:18,270 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1-sources.jar
+2021-09-15 15:54:18,470 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1-sources.jar
+2021-09-15 15:54:18,548 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1-sources.jar
+2021-09-15 15:54:18,782 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1-sources.jar
+2021-09-15 15:54:18,873 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1-sources.jar
+2021-09-15 15:54:19,069 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1-sources.jar
+2021-09-15 15:54:19,152 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1-sources.jar
+2021-09-15 15:54:19,351 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1-sources.jar
+2021-09-15 15:54:19,474 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1-sources.jar
+2021-09-15 15:54:19,704 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1-sources.jar
+2021-09-15 15:54:19,784 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1-sources.jar
+2021-09-15 15:54:19,971 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2-sources.jar
+2021-09-15 15:54:20,117 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2-sources.jar
+2021-09-15 15:54:20,313 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2-sources.jar
+2021-09-15 15:54:20,398 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2-sources.jar
+2021-09-15 15:54:20,596 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2-sources.jar
+2021-09-15 15:54:20,727 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2-sources.jar
+2021-09-15 15:54:20,926 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1-sources.jar
+2021-09-15 15:54:21,068 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1-sources.jar
+2021-09-15 15:54:21,270 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
+2021-09-15 15:54:21,427 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
+2021-09-15 15:54:21,669 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1-sources.jar
+2021-09-15 15:54:21,842 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1-sources.jar
+2021-09-15 15:54:22,017 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2021-09-15 15:54:22,103 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0-sources.jar
+2021-09-15 15:54:22,292 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2021-09-15 15:54:22,495 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1-sources.jar
+2021-09-15 15:54:22,698 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.1/maven-embedder-3.8.1-sources.jar
+2021-09-15 15:54:22,782 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-embedder/3.8.1/maven-embedder-3.8.1-sources.jar
+2021-09-15 15:54:22,984 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4-sources.jar
+2021-09-15 15:54:23,063 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4-sources.jar
+2021-09-15 15:54:23,257 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2021-09-15 15:54:23,342 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar
+2021-09-15 15:54:23,535 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2021-09-15 15:54:23,621 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.4/commons-cli-1.4-sources.jar
+2021-09-15 15:54:23,872 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1-sources.jar
+2021-09-15 15:54:24,023 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1-sources.jar
+2021-09-15 15:54:24,522 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25-sources.jar
+2021-09-15 15:54:24,617 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25-sources.jar
+2021-09-15 15:54:24,823 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2021-09-15 15:54:24,913 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3-sources.jar
+2021-09-15 15:54:25,115 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2021-09-15 15:54:25,215 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0-sources.jar
+2021-09-15 15:54:25,431 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2021-09-15 15:54:25,516 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/takari/aether/aether-connector-okhttp/0.17.8/aether-connector-okhttp-0.17.8-sources.jar
+2021-09-15 15:54:25,723 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2021-09-15 15:54:25,901 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.1/okhttp-3.14.1-sources.jar
+2021-09-15 15:54:26,098 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2021-09-15 15:54:26,190 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.17.3/okio-1.17.3-sources.jar
+2021-09-15 15:54:26,421 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2-sources.jar
+2021-09-15 15:54:26,524 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2-sources.jar
+2021-09-15 15:54:26,725 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2-sources.jar
+2021-09-15 15:54:26,805 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2-sources.jar
+2021-09-15 15:54:26,990 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.2/maven-resolver-transport-wagon-1.6.2-sources.jar
+2021-09-15 15:54:27,072 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.2/maven-resolver-transport-wagon-1.6.2-sources.jar
+2021-09-15 15:54:27,255 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2021-09-15 15:54:27,333 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3-sources.jar
+2021-09-15 15:54:27,517 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.16/hawtjni-runtime-1.16-sources.jar
+2021-09-15 15:54:27,597 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.16/hawtjni-runtime-1.16-sources.jar
+2021-09-15 15:54:27,801 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd32/1.8/jansi-freebsd32-1.8-sources.jar
+2021-09-15 15:54:27,880 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd32/1.8/jansi-freebsd32-1.8-sources.jar
+2021-09-15 15:54:28,078 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd64/1.8/jansi-freebsd64-1.8-sources.jar
+2021-09-15 15:54:28,158 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-freebsd64/1.8/jansi-freebsd64-1.8-sources.jar
+2021-09-15 15:54:28,355 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux32/1.8/jansi-linux32-1.8-sources.jar
+2021-09-15 15:54:28,428 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux32/1.8/jansi-linux32-1.8-sources.jar
+2021-09-15 15:54:28,631 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux64/1.8/jansi-linux64-1.8-sources.jar
+2021-09-15 15:54:28,715 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-linux64/1.8/jansi-linux64-1.8-sources.jar
+2021-09-15 15:54:28,902 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/1.8/jansi-native-1.8-sources.jar
+2021-09-15 15:54:28,988 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/1.8/jansi-native-1.8-sources.jar
+2021-09-15 15:54:29,174 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-osx/1.8/jansi-osx-1.8-sources.jar
+2021-09-15 15:54:29,247 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-osx/1.8/jansi-osx-1.8-sources.jar
+2021-09-15 15:54:29,439 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows32/1.8/jansi-windows32-1.8-sources.jar
+2021-09-15 15:54:29,535 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows32/1.8/jansi-windows32-1.8-sources.jar
+2021-09-15 15:54:29,723 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows64/1.8/jansi-windows64-1.8-sources.jar
+2021-09-15 15:54:29,796 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-windows64/1.8/jansi-windows64-1.8-sources.jar
+2021-09-15 15:54:30,003 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/1.17.1/jansi-1.17.1-sources.jar
+2021-09-15 15:54:30,085 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/1.17.1/jansi-1.17.1-sources.jar
+2021-09-15 15:54:30,269 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre-sources.jar
+2021-09-15 15:54:30,584 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1-jre/guava-30.1-jre-sources.jar
+2021-09-15 15:54:30,803 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4-sources.jar
+2021-09-15 15:54:30,879 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4-sources.jar
+2021-09-15 15:54:31,445 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar
+2021-09-15 15:54:31,525 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar
+2021-09-15 15:54:31,728 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2021-09-15 15:54:31,814 [Worker-85: Searching...] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+2021-09-15 15:56:14,660 [Worker-83: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:56:14,660 [Worker-83: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn install
+2021-09-15 15:56:24,050 [Worker-85: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:56:24,050 [Worker-85: Launching amazon-kinesis-video-streams-producer-sdk-java (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn install
+2021-09-15 15:56:32,000 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-15 15:56:35,666 [Worker-89: Launching amazon-kinesis-video-streams-producer-sdk-java (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-15 15:56:35,666 [Worker-89: Launching amazon-kinesis-video-streams-producer-sdk-java (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-09-15 15:56:51,019 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-15 15:56:51,346 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 15:56:51,610 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-15 15:56:51,688 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-15 15:56:51,700 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-15 15:56:51,796 [Worker-89: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 15:56:52,070 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:56:52,101 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/java
+2021-09-15 15:56:52,102 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/demo
+2021-09-15 15:56:52,102 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/resources
+2021-09-15 15:56:52,112 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/test/java
+2021-09-15 15:56:52,780 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-15 15:56:52,937 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 15:56:52,938 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 15:56:52,939 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 15:56:52,939 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 15:56:53,325 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 15:56:53,333 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:56:53,335 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:56:53,348 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 15:56:55,708 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:56:55,708 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 15:57:13,943 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-15 15:57:14,236 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary Application\Java\KinesisProducer\pom.xml.
+2021-09-15 15:57:14,454 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-15 15:57:14,528 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-15 15:57:14,540 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-15 15:57:14,584 [Worker-92: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 15:57:14,812 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:57:14,844 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/java
+2021-09-15 15:57:14,846 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/demo
+2021-09-15 15:57:14,846 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/resources
+2021-09-15 15:57:14,855 [Worker-92: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/test/java
+2021-09-15 15:57:15,473 [Worker-92: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-15 15:57:15,638 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 15:57:15,638 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\main\resources
+2021-09-15 15:57:15,639 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-15 15:57:15,639 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\KinesisProducer\src\test\resources
+2021-09-15 15:57:15,992 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 15:57:16,001 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 15:57:16,002 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:57:16,007 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 15:57:18,355 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 15:57:18,356 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 16:03:02,766 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 16:03:02,766 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 16:03:02,887 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 16:03:03,051 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 16:03:03,052 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 16:03:25,556 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 16:03:25,557 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 16:03:25,670 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 16:03:25,825 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 16:03:25,825 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-16 14:40:27,248 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 14:41:29,820 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:kinesisvideo-java-demo:1.0-SNAPSHOT @ C:\Temprorary_Application\Java\Gstreamer\new\pom.xml.
+2021-09-16 14:41:29,975 [Worker-19: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:41:31,363 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:41:31,517 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 14:41:31,611 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:41:31,622 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 14:41:32,249 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:41:32,250 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 14:41:36,657 [Worker-12: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/amazon-kinesis-video-streams-producer-sdk-java/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1070)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1069)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:251)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:260)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:632)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:936)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-16 14:43:51,961 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 17:00:52,735 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-16 17:00:52,737 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\KinesisProducer\src\main\resources
+2021-09-16 17:00:52,738 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-16 17:00:52,738 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\KinesisProducer\src\test\resources
+2021-09-16 17:00:52,994 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:00:53,126 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 17:00:53,129 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:00:53,141 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 17:00:53,181 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:00:53,182 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 17:04:08,221 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:kinesisvideo-java-demo:1.0-SNAPSHOT @ C:\Temprorary_Application\Java\Gstreamer\new\pom.xml.
+2021-09-16 17:04:08,289 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:04:08,552 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 17:04:08,552 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:04:08,580 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 17:04:08,611 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:04:08,612 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 17:04:10,691 [Worker-39: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:04:10,956 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:kinesisvideo-java-demo:1.0-SNAPSHOT @ C:\Temprorary_Application\Java\Gstreamer\new\pom.xml.
+2021-09-16 17:04:11,012 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:04:11,203 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 17:04:11,204 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:04:11,205 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-16 17:04:11,206 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 17:04:11,206 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 17:04:27,558 [Worker-38: Launching DemoAppMain (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:21:29,077 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 17:21:30,489 [Worker-8: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 17:21:59,940 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 17:22:02,269 [Worker-8: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 14:48:48,083 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-17 14:48:49,239 [Worker-8: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/new/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1070)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1069)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:251)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:260)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:632)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:936)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-17 14:49:44,234 [Worker-3: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-17 14:49:44,765 [Worker-3: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-17 14:49:44,937 [Worker-3: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 14:49:45,529 [Worker-3: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:49:45,689 [Worker-3: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/java
+2021-09-17 14:49:45,691 [Worker-3: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/demo
+2021-09-17 14:49:45,691 [Worker-3: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/resources
+2021-09-17 14:49:45,733 [Worker-3: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/test/java
+2021-09-17 14:49:45,951 [Worker-3: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-17 14:49:46,352 [Worker-8: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 14:49:46,402 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar
+2021-09-17 14:49:46,406 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-17 14:49:46,414 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar
+2021-09-17 14:49:46,417 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-17 14:49:47,066 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:49:47,073 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:49:47,091 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:49:50,255 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:49:50,255 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:50:51,547 [Worker-18: Launching Executing clean in C__Temprorary_Application_Java_Gstreamer_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java
+2021-09-17 14:50:51,550 [Worker-18: Launching Executing clean in C__Temprorary_Application_Java_Gstreamer_amazon-kinesis-video-streams-producer-sdk-java] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-17 14:50:54,026 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:50:54,040 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:50:54,159 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:50:56,852 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:50:56,853 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:54:00,758 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:54:00,759 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:54:00,885 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:54:01,064 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:54:01,065 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:54:41,253 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:54:41,254 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:54:41,375 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:54:41,544 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:54:41,546 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:55:07,952 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-17 14:55:08,796 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-17 14:55:08,863 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-17 14:55:09,018 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-17 14:55:09,111 [Worker-24: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 14:55:09,564 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:55:09,597 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/java
+2021-09-17 14:55:09,598 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/demo
+2021-09-17 14:55:09,598 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/resources
+2021-09-17 14:55:09,608 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/test/java
+2021-09-17 14:55:10,376 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-09-17 14:55:11,127 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 14:55:11,138 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:55:11,144 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:55:11,150 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:55:13,875 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:55:13,876 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:56:18,739 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:56:18,740 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:56:18,872 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:56:19,029 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:56:19,030 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 14:56:20,389 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 14:56:20,390 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:56:20,508 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 14:56:20,672 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 14:56:20,672 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-17 15:00:34,101 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-17 15:00:35,183 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.joy:KinesisProducer:0.0.1-SNAPSHOT @ C:\Temprorary_Application\Java\KinesisProducer\pom.xml.
+2021-09-17 15:00:35,346 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-17 15:00:35,498 [Worker-8: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 15:00:36,602 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-17 15:00:36,602 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\KinesisProducer\src\main\resources
+2021-09-17 15:00:36,605 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-17 15:00:36,605 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\KinesisProducer\src\test\resources
+2021-09-17 15:00:36,951 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-17 15:00:37,099 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-17 15:00:37,101 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 15:00:37,123 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-17 15:00:37,372 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-17 15:00:37,373 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources

@@ -1,0 +1,5 @@
+package com.joy.KinesisProducer.model;
+
+public class Product {
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/new/src/main/demo/com/amazonaws/kinesisvideo/demoapp/DemoAppMain.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.amazonaws.kinesisvideo.demoapp.DemoAppMain"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="new"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="new"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Daws.accessKeyId=ASIATO7YQHBBIS7CDXCA&#13;&#10;-Daws.secretKey=Cxpei7a6R/XbNXsBUrd15THxyVna3Cqbg8E4vYPB&#13;&#10;-Daws.sessionToken=IQoJb3JpZ2luX2VjECAaCWV1LXdlc3QtMSJHMEUCIFywtiqUQj2kcsb55iD5BU7dWwpLwlRfTjekxCieLdSuAiEAgAGTZ5mOa0ZkJ1QGaonflXyf5WjUI2a06FOrN8V0gP0qiQMIeRAAGgwyMzgzNTQ5NzA2OTAiDKhTSybkDwgZFdhF2SrmAnI77rZam1/y/RkRL/0Gwg710lUFde5QudD4n6J/Zg8sOIeqfLW0Gn+VodNOrPSI+2Cz2S9YraecoUpHGIR4J+nbZVijC+4BCwgHpu62IQVD+tZweCtUaDyn3pWyovI8TGFLVx3nRSHk4XL5EC69VyjukhvLNx3VkeX8AjQF5Krf66SxbXx+nvHQ9vjpcDMhpImhG1gHN94rkErLp6/nlzlxsdsAEol7ybxjUKAwbEblmGZenTIhhWVAB+K6jShPp50PrKbBTMzfDuGb9G4UN/T7D/uwAC/T8G+7eJ0h+UR3A2A057yMG7QA9Ec7WqOdK38ZN2YGVCZbgQAxbyAf9g4NkT4N7CndYK2ehBNszf/P7nD+RpwXrdQl5QpO9kKXCNVOrzviGaV/2SsP5n10aDHNpB1607K6MF53RubKqGeNSA0Mu6s1fISqYr63f2SpmbomSBgpKpOxh1+g1OBZVzl41GP7wS4w4teNigY6pgHnV+CXC16gFsiEVG2aAICKcr0R6FfIiv2D7H3ebL+Hx9SPtBYPhnbuV12PIyHlHLpM7HL+kKSGfSuVFgUz7XOfycoC3KCuJcTX4aZDlq8Iyh/5BaECO2kOK7PURqUfjGmjna5ULL7xEn9nCuCNbXI0nD7VqME7zcjEfs7emgrNlrx/8MkSSkJY0x4Z3LCjWx9iRVLFTbJ98CxTOVVwkv3f8dDyEPpo&#13;&#10;-Dkvs-stream=My_Video_Stream&#13;&#10;-Djava.library.path=C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\resources\lib\windows"/>
+</launchConfiguration>

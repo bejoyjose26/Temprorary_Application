@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/lib/src/main/java/DemoGradleProject/my_demo.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="DemoGradleProject.my_demo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="lib"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-PstreamName=&quot;My_Video_Stream&quot;&#13;&#10;-PrtspUri=&quot;rtsp://admin:admin@192.168.1.79/defaultPrimary?streamType=u&quot;"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="lib"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Daws.accessKeyId=ASIATO7YQHBBPNJ2IFXI&#13;&#10;-Daws.secretKey=XGt5CTM50lOo9uQ8QB1x+E5mk/I9m5hr82N2dUQW&#13;&#10;-Daws.sessionToken=IQoJb3JpZ2luX2VjECYaCWV1LXdlc3QtMSJGMEQCIDvrcdVfmyBPKVVgFo+Tz0tU54/h1a5mgM8EL/dDnJfUAiAb5/2m9BFJrQDzj/ZaGt3NMJFLz796lwpWboQKAMUSLyqSAwiP//////////8BEAAaDDIzODM1NDk3MDY5MCIMjFRCYse+NOnkds1JKuYC4LG6aIybRLGEauLom2PYvjEgkceqqJ3/OAtrOG2hf7EofHd1UAZpZZTaQw83bJrx/Iqh2uGNYR2wXJOhLebfadInRn/9jjyUvQcK1wxWYKi07vi5/FvFHozbBIPxfV8VC8HLk0cXehnCtA8ZdG2WihAY9WhOfKmRs5edo6milpK8vfOtAZy7rE7MxxY1iUApk8IBrMNULnmVeQGcCQQRGWM2RgQV+8oavDee4pM4NY75PFqVpoyNMdrRLqrxCxD0nPOn4KgRbxBxIMU2OfCy89mk0bZHJwg4YS1Jew3TKSMq0J8VUCY/hwIvNLtzWoJB2ufSpxqh1Lh2wsYztDa4b+42v89qWiC80quXjY9xenGsRi1y7k93vLqF0RFsnSROGwBjj5gLvixcPBLBfU7Op81shkRI6OA92HEsSkFAnl+VBwX2XxoQr+hdBPUo5ZQXqbNLeQohVeJe2TmY+pUs5KjVvW/o2jC3nMeKBjqnAT9Br/jjCEaf0PfeTobO5VBFGwO9qp/0g4B/kvPcmfuMS3X1nZF6OMu6ryj17UQpbV79MBQlU+K8GhHJ5UnwmWjMhPL2yiTuJETFUK2Y7lJS92cjpdtog+kcYPKlyi4Q1kEqjOH9WDCAtr77Z9yCLbBPWBXtWxLxlVFPI+lzSx+W8AsHDOH2cDUz5s8tx/260R/21QY6xLVhDpuM2MooGdDJBhN70uK/&#13;&#10;-Dkvs-stream=My_Video_Stream&#13;&#10;-Djava.library.path=C:\Temprorary_Application\Java\Gstreamer\amazon-kinesis-video-streams-producer-sdk-java1\src\main\resources\lib\windows"/>
+</launchConfiguration>

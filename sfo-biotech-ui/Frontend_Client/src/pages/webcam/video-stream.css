@@ -1,0 +1,25 @@
+.container {
+  /* display: flex;
+  flex-direction: column; */
+  left: 16px;
+  top: 62px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  max-height: 500px;
+  height: 450px;
+  border-radius: 0px;
+
+}
+
+.app-container {
+  margin-top: 60px;
+}
+
+text {
+  color: #1a1818;
+}
+
+.app_input {
+  margin-top: 10px;
+}

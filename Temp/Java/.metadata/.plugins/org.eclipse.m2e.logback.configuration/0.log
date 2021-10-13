@@ -1,0 +1,372 @@
+2021-09-15 18:23:27,310 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-15 18:31:52,597 [Worker-24: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-15 18:31:53,415 [Worker-24: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\pom.xml.
+2021-09-15 18:31:53,550 [Worker-24: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 18:31:54,121 [Worker-24: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 18:31:54,254 [Worker-24: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/java
+2021-09-15 18:31:54,256 [Worker-24: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/demo
+2021-09-15 18:31:54,257 [Worker-24: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /amazon-kinesis-video-streams-producer-sdk-java/src/main/resources
+2021-09-15 18:31:54,279 [Worker-24: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /amazon-kinesis-video-streams-producer-sdk-java/src/test/java
+2021-09-15 18:31:54,944 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-15 18:31:54,990 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar
+2021-09-15 18:31:54,995 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-15 18:31:55,005 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar
+2021-09-15 18:31:55,008 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-15 18:31:55,690 [Worker-24: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2021-09-15 18:31:55,819 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 18:31:55,827 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:31:55,843 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 18:31:58,500 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:31:58,501 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 18:42:36,810 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 18:42:36,811 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:42:36,813 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-15 18:42:36,814 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:42:36,815 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 18:43:38,810 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 18:43:38,812 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:43:38,943 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 18:43:39,106 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:43:39,106 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 18:43:40,529 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 18:43:40,529 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:43:40,641 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 18:43:40,798 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 18:43:40,799 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-15 19:12:31,299 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-15 19:12:31,301 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 19:12:31,416 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-15 19:12:31,589 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-15 19:12:31,590 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-16 10:35:58,795 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 13:14:28,935 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-16 13:14:29,534 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:kinesisvideo-java-demo:1.0-SNAPSHOT @ C:\Temprorary_Application\Java\Gstreamer\new\pom.xml.
+2021-09-16 13:14:29,556 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.pom
+2021-09-16 13:14:30,085 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.pom
+2021-09-16 13:14:30,160 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.pom
+2021-09-16 13:14:30,167 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-pom/1.11.172/aws-java-sdk-pom-1.11.172.pom
+2021-09-16 13:14:30,211 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.172/aws-java-sdk-pom-1.11.172.pom
+2021-09-16 13:14:30,254 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.172/aws-java-sdk-pom-1.11.172.pom
+2021-09-16 13:14:30,267 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom
+2021-09-16 13:14:30,303 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom
+2021-09-16 13:14:30,343 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom
+2021-09-16 13:14:30,348 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom
+2021-09-16 13:14:30,387 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom
+2021-09-16 13:14:30,455 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom
+2021-09-16 13:14:30,466 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+2021-09-16 13:14:30,505 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+2021-09-16 13:14:30,552 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+2021-09-16 13:14:30,558 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+2021-09-16 13:14:30,598 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+2021-09-16 13:14:30,647 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+2021-09-16 13:14:30,658 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+2021-09-16 13:14:30,698 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+2021-09-16 13:14:30,744 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+2021-09-16 13:14:30,749 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/commons/commons-parent/32/commons-parent-32.pom
+2021-09-16 13:14:30,793 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom
+2021-09-16 13:14:30,877 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom
+2021-09-16 13:14:30,887 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom
+2021-09-16 13:14:30,938 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom
+2021-09-16 13:14:30,983 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.pom
+2021-09-16 13:14:31,004 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/guice/4.0/guice-4.0.pom
+2021-09-16 13:14:31,057 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+2021-09-16 13:14:31,103 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+2021-09-16 13:14:31,108 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+2021-09-16 13:14:31,154 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+2021-09-16 13:14:31,199 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+2021-09-16 13:14:31,209 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2021-09-16 13:14:31,262 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2021-09-16 13:14:31,303 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2021-09-16 13:14:31,309 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2021-09-16 13:14:31,360 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2021-09-16 13:14:31,407 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2021-09-16 13:14:31,418 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/junit/junit/4.12/junit-4.12.pom
+2021-09-16 13:14:31,459 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2021-09-16 13:14:31,504 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2021-09-16 13:14:31,524 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava/21.0/guava-21.0.pom
+2021-09-16 13:14:31,561 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+2021-09-16 13:14:31,605 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom
+2021-09-16 13:14:31,609 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+2021-09-16 13:14:31,646 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+2021-09-16 13:14:31,686 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+2021-09-16 13:14:31,708 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom
+2021-09-16 13:14:31,742 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom
+2021-09-16 13:14:31,788 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom
+2021-09-16 13:14:31,791 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/extensions/extensions-parent/4.0/extensions-parent-4.0.pom
+2021-09-16 13:14:31,827 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/extensions-parent/4.0/extensions-parent-4.0.pom
+2021-09-16 13:14:31,871 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/extensions/extensions-parent/4.0/extensions-parent-4.0.pom
+2021-09-16 13:14:31,885 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.pom
+2021-09-16 13:14:32,009 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.pom
+2021-09-16 13:14:32,056 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.pom
+2021-09-16 13:14:32,063 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-pom/1.11.255/aws-java-sdk-pom-1.11.255.pom
+2021-09-16 13:14:32,102 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.255/aws-java-sdk-pom-1.11.255.pom
+2021-09-16 13:14:32,152 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-pom/1.11.255/aws-java-sdk-pom-1.11.255.pom
+2021-09-16 13:14:32,159 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-core/1.11.255/aws-java-sdk-core-1.11.255.pom
+2021-09-16 13:14:32,238 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.255/aws-java-sdk-core-1.11.255.pom
+2021-09-16 13:14:32,304 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.255/aws-java-sdk-core-1.11.255.pom
+2021-09-16 13:14:32,330 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.pom
+2021-09-16 13:14:32,399 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.pom
+2021-09-16 13:14:32,442 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.pom
+2021-09-16 13:14:32,447 [Worker-62: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 13:14:32,460 [BasicRepositoryConnector-C-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.jar
+2021-09-16 13:14:32,460 [BasicRepositoryConnector-C-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+2021-09-16 13:14:32,460 [BasicRepositoryConnector-C-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar
+2021-09-16 13:14:32,460 [BasicRepositoryConnector-C-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+2021-09-16 13:14:32,460 [BasicRepositoryConnector-C-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+2021-09-16 13:14:32,463 [BasicRepositoryConnector-C-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/junit/junit/4.12/junit-4.12.jar
+2021-09-16 13:14:32,463 [BasicRepositoryConnector-C-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/guice/4.0/guice-4.0.jar
+2021-09-16 13:14:32,463 [BasicRepositoryConnector-C-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava/21.0/guava-21.0.jar
+2021-09-16 13:14:32,463 [BasicRepositoryConnector-C-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar
+2021-09-16 13:14:32,463 [BasicRepositoryConnector-C-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.jar
+2021-09-16 13:14:32,464 [BasicRepositoryConnector-C-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.jar
+2021-09-16 13:14:32,613 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.jar
+2021-09-16 13:14:32,706 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+2021-09-16 13:14:32,706 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+2021-09-16 13:14:32,822 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+2021-09-16 13:14:32,822 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar
+2021-09-16 13:14:34,368 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+2021-09-16 13:14:34,369 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+2021-09-16 13:14:34,369 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172.jar
+2021-09-16 13:14:34,369 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+2021-09-16 13:14:34,517 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.jar
+2021-09-16 13:14:35,264 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2021-09-16 13:14:35,543 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2021-09-16 13:14:35,548 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar
+2021-09-16 13:14:35,594 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1.jar
+2021-09-16 13:14:37,084 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.jar
+2021-09-16 13:14:37,217 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.jar
+2021-09-16 13:14:37,239 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar
+2021-09-16 13:14:37,285 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2021-09-16 13:14:37,401 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.jar
+2021-09-16 13:14:37,414 [AetherRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255.jar
+2021-09-16 13:14:37,447 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar
+2021-09-16 13:14:37,570 [AetherRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255.jar
+2021-09-16 13:14:38,204 [Worker-62: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 13:14:38,686 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:14:39,564 [Worker-63: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 13:14:39,576 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172-sources.jar
+2021-09-16 13:14:39,746 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172-sources.jar
+2021-09-16 13:14:39,973 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.172/aws-java-sdk-core-1.11.172-sources.jar
+2021-09-16 13:14:40,021 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-core:1.11.172
+2021-09-16 13:14:40,026 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar
+2021-09-16 13:14:40,182 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar
+2021-09-16 13:14:40,434 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar
+2021-09-16 13:14:40,484 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.2
+2021-09-16 13:14:40,491 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar
+2021-09-16 13:14:40,609 [Worker-62: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /new/src/main/java
+2021-09-16 13:14:40,612 [Worker-62: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /new/src/main/demo
+2021-09-16 13:14:40,612 [Worker-62: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /new/src/main/resources
+2021-09-16 13:14:40,623 [Worker-62: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /new/src/test/java
+2021-09-16 13:14:40,660 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar
+2021-09-16 13:14:40,878 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar
+2021-09-16 13:14:40,981 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.4
+2021-09-16 13:14:40,989 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+2021-09-16 13:14:41,157 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+2021-09-16 13:14:41,323 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar
+2021-09-16 13:14:41,382 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.9
+2021-09-16 13:14:41,390 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1-sources.jar
+2021-09-16 13:14:41,546 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1-sources.jar
+2021-09-16 13:14:41,638 [Worker-62: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2021-09-16 13:14:41,788 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.1/jackson-databind-2.6.7.1-sources.jar
+2021-09-16 13:14:41,793 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:14:41,807 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:14:41,819 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 13:14:41,825 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.6.7.1
+2021-09-16 13:14:41,833 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/guice/4.0/guice-4.0-sources.jar
+2021-09-16 13:14:42,013 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0-sources.jar
+2021-09-16 13:14:42,188 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0-sources.jar
+2021-09-16 13:14:42,241 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.inject:guice:4.0
+2021-09-16 13:14:42,249 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/junit/junit/4.12/junit-4.12-sources.jar
+2021-09-16 13:14:42,417 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2021-09-16 13:14:42,547 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2021-09-16 13:14:42,599 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2021-09-16 13:14:42,606 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2021-09-16 13:14:42,765 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2021-09-16 13:14:42,845 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:14:42,847 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:14:43,094 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
+2021-09-16 13:14:43,131 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:21.0
+2021-09-16 13:14:43,136 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar
+2021-09-16 13:14:43,294 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar
+2021-09-16 13:14:43,368 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar
+2021-09-16 13:14:43,402 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.inject.extensions:guice-multibindings:4.0
+2021-09-16 13:14:43,406 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2021-09-16 13:14:43,577 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2021-09-16 13:14:43,729 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
+2021-09-16 13:14:43,827 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.4
+2021-09-16 13:14:43,834 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255-sources.jar
+2021-09-16 13:14:44,201 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255-sources.jar
+2021-09-16 13:14:44,505 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-kinesisvideo/1.11.255/aws-java-sdk-kinesisvideo-1.11.255-sources.jar
+2021-09-16 13:14:44,556 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kinesisvideo:1.11.255
+2021-09-16 13:14:44,563 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\new/lib/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255-sources.jar
+2021-09-16 13:14:44,731 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255-sources.jar
+2021-09-16 13:14:44,946 [Worker-63: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/jmespath-java/1.11.255/jmespath-java-1.11.255-sources.jar
+2021-09-16 13:14:44,975 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:jmespath-java:1.11.255
+2021-09-16 13:14:44,977 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.4
+2021-09-16 13:14:44,980 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.9
+2021-09-16 13:14:44,982 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.6.7.1
+2021-09-16 13:14:44,984 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.inject:guice:4.0
+2021-09-16 13:14:44,986 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2021-09-16 13:14:44,988 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:21.0
+2021-09-16 13:14:44,991 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.inject.extensions:guice-multibindings:4.0
+2021-09-16 13:14:44,993 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:2.4
+2021-09-16 13:14:44,995 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-kinesisvideo:1.11.255
+2021-09-16 13:14:44,997 [Worker-63: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:jmespath-java:1.11.255
+2021-09-16 13:14:45,273 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:14:45,274 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:14:45,275 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-16 13:14:45,276 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:14:45,276 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:32:51,877 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:32:51,878 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:32:51,905 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 13:32:51,935 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:32:51,937 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:32:53,052 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:32:53,053 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:32:53,075 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 448 resources
+2021-09-16 13:32:53,106 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:32:53,106 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:39:02,999 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:39:03,001 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:39:03,025 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 449 resources
+2021-09-16 13:39:03,057 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:39:03,057 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:52:01,663 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-16 13:52:01,665 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:52:01,672 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 13:52:01,952 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:52:01,953 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-16 13:52:39,056 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\new\src\main\demo added.
+2021-09-16 13:52:39,057 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:52:39,084 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 449 resources
+2021-09-16 13:52:39,115 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:52:39,116 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\new\src\test\resources
+2021-09-16 13:53:09,939 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\main\demo added.
+2021-09-16 13:53:09,940 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:53:10,058 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 13:53:10,213 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 13:53:10,214 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\amazon-kinesis-video-streams-producer-sdk-java\src\test\resources
+2021-09-16 14:01:40,470 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-16 14:03:55,950 [Worker-6: Launching DemoAppMain (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:10:37,591 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-16 14:10:38,186 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\Gstreamer\TEST\pom.xml.
+2021-09-16 14:10:38,347 [Worker-26: Update Maven projects configuration] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:10:38,819 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:10:38,923 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/main/java
+2021-09-16 14:10:38,926 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/main/demo
+2021-09-16 14:10:38,926 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TEST/src/main/resources
+2021-09-16 14:10:38,953 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/test/java
+2021-09-16 14:10:39,160 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-16 14:10:39,774 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:10:39,822 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\TEST/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar
+2021-09-16 14:10:39,827 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-16 14:10:39,836 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file://C:\Temprorary_Application\Java\Gstreamer\TEST/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar
+2021-09-16 14:10:39,839 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-16 14:10:40,277 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:10:40,305 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:10:40,334 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 14:10:43,512 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:10:43,512 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\TEST\src\test\resources
+2021-09-16 14:11:44,207 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:11:44,208 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:11:44,345 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 14:11:44,517 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:11:44,518 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\TEST\src\test\resources
+2021-09-16 14:12:37,442 [Worker-23: Launching Executing clean in C__Temprorary_Application_Java_Gstreamer_TEST] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Temprorary_Application\Java\Gstreamer\TEST
+2021-09-16 14:12:37,443 [Worker-23: Launching Executing clean in C__Temprorary_Application_Java_Gstreamer_TEST] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-09-16 14:12:39,848 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:12:39,849 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:12:39,982 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 14:12:43,005 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:12:43,006 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\TEST\src\test\resources
+2021-09-16 14:12:44,751 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-16 14:13:02,343 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-16 14:13:03,023 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-16 14:13:03,109 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+2021-09-16 14:13:03,280 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.amazonaws:amazon-kinesis-video-streams-producer-sdk-java:1.11.0 @ C:\Temprorary_Application\Java\Gstreamer\TEST\pom.xml.
+2021-09-16 14:13:03,379 [Worker-6: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:13:03,639 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:13:03,675 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/main/java
+2021-09-16 14:13:03,675 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/main/demo
+2021-09-16 14:13:03,675 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TEST/src/main/resources
+2021-09-16 14:13:03,684 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TEST/src/test/java
+2021-09-16 14:13:04,472 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-09-16 14:13:05,119 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact javax.measure:jsr-275:jar:1.0.0 has been relocated to javax.measure:jsr-275:jar:0.9.1
+2021-09-16 14:13:05,130 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\demo added.
+2021-09-16 14:13:05,138 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:13:05,143 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2429 resources
+2021-09-16 14:13:08,090 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-16 14:13:08,091 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Temprorary_Application\Java\Gstreamer\TEST\src\test\resources

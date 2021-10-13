@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/new/src/main/demo/com/amazonaws/kinesisvideo/demoapp/DemoAppMain.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.amazonaws.kinesisvideo.demoapp.DemoAppMain"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="new"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="new"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Daws.accessKeyId=ASIATO7YQHBBFLCWU672&#13;&#10;-Daws.secretKey=Pml0wx7NEK7vGheG84nbk4iXvYCmGMJOb6dkt69m&#13;&#10;-Daws.sessionToken=IQoJb3JpZ2luX2VjEB4aCWV1LXdlc3QtMSJHMEUCICdNplU7wZN8i15L8ckLK/se4XDllTeBKh59N3OgWhgUAiEAmp0ri+fSpGMnuQmYMXduxYwpt4touYt/JjIhViPungsqiQMIdhAAGgwyMzgzNTQ5NzA2OTAiDODQPNg/1OgSjFMeoyrmApa+jV1WHCMnhZSuHHqFgvRnwiiA4d3FSrbZlvCBBDpoRHWnkHKZAekOjZiHOLLO3rl07wbg++dSwaCX/PumqPrYEeKIPdJhx3eX7SogphQVDVmax2tQXxfm3R+pg7WqnGsQH61msNuc3Okugd9gRZXT4vQHU8YLWnTm0/7nsa4HQlslPyd6ZgsdcDmJbMwbtuOTcfUoQre01DnLtRQRGVd5I9XbAGRMaKqW8aGG7iA0CPdyR8dp759mu3Wb9ytP3CZelSsgapY1LF3IrzXym/yIg6ySe0LuIl1vjRSN0KtLlT8sObHis9Rtxlwnia6RrS3DW2xBsQFOKUHeqcbJ0LLyJqf7qrZZ7My7VFCxhCs81MC/ASGSJWQMhUmRYc5DlD1ukykPybEdKT40VQsvryzdkU30Jf4U1ocVU/dMkcG+PB0cN8nIUSMJDUqvrqwWaP4oQ4uEwuhW7ZAp4xqw0HzBV3LJebEwyoaNigY6pgFoOvBervk7BMo286A9qCaejoEUO8neCOS9iZk8IGKq/4j2w4BCR+TuFMgHb+kU/wS/I/F4FlvTgpThWQg9VPGBGtjTZa+VJVv9DlINLoSyKGdW8BtwzotHFd6I+3s0cqcsNDciDI1K7tvJRiqt5mTvzXExu8sv/YiLTzkvw5pWHF2YFSdW/igDlm89dKplmPJ0uGV4WDEtsW6lWYFpJNWdH2GWmdFz&#13;&#10;-Dkvs-stream=My_Video_Stream&#13;&#10;-Djava.library.path=C:\Temprorary_Application\Java\Gstreamer\TEST\src\main\resources\lib\windows"/>
+</launchConfiguration>
